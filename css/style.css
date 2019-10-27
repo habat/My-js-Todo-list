@@ -1,0 +1,161 @@
+body{
+	
+	margin: auto;
+	/*<background-color: #70ad8b;*/
+	background: linear-gradient(to top left,#70ad8b,#bed6a6);
+	background-repeat: no-repeat;
+	box-sizing: border-box;
+	
+	
+	
+}
+.container{
+	background-color: #bed6a6;
+	margin-left: 20%;
+	margin-right: 20%;
+	padding: 20px;
+}
+#addmorethingstodo{
+	width: 450px;
+	
+}
+#addthingstodo {
+	width: 400px;
+	margin-left: 20px;
+}
+
+#list-title{
+	background-color: #70ad8b;
+	padding: 10px;
+	border-radius: 5px;
+	color: white;
+	font-weight: bolder;
+	
+}
+
+
+#list-title ul {
+	list-style: none;
+}
+.addingalistitem{
+	margin-top: 20px;
+}
+.addaplus{
+	float: left;
+}
+
+.add-to-do{
+	margin-top: 20px;
+	
+}
+.add-to-do input{
+	background-color: #87c8a2;
+	color: white;
+	padding: 10px;
+	border-radius: 2px;
+	border: solid 1px #87c8a2;
+	
+	
+	
+}
+.add-to-do i {
+	color:  #70ad8b;
+	
+}
+.list-items {
+	
+	margin-top: 20px;
+	
+}
+
+.list-items li{
+	list-style: none;
+	padding: 10px;
+	margin-bottom: 4px;
+	background-color: white;
+	border-radius: 5px;
+	max-height: 3.5em;
+	
+}
+.finished-todos{
+	margin-top: 20px;
+	margin-left: 30%;
+	margin-right: 30%;
+	width: 40%;
+}
+.finished-todos input{
+	width: 300px;
+	height: 50px;
+	padding:20px;
+	color: white;
+	background-color: #70ad8b;
+	border-radius: 5px;
+	border: solid 1px #70ad8b;
+	font-size: 16px;
+	line-height: 0px;
+}
+.mycircle{
+	color: #70ad8b;
+}
+.mystar{
+	color: red;
+	padding-right: 5px;
+}
+#complete-list{
+	height: auto;
+}
+.finished-list{
+	background-color: #70ad8b;
+	padding: 5px;
+	margin-top: 10px;
+	display: none;
+	
+	
+	
+}
+
+.finished-list ul {
+	list-style: none;
+	padding: 5px;
+	
+	
+}
+.finished-list ul  li{
+	margin-top: 10px;
+	background-color: white;
+	padding: 5px;
+	
+	border-radius: 5px;
+	height: 25px;
+	line-height: 4px;
+}
+
+.finished-list-2{
+	background-color: #70ad8b;
+	padding: 5px;
+	margin-top: 10px;
+	/*transform: rotate(15deg);*/
+	
+}
+
+.finished-list-2 ul {
+	list-style: none;
+	padding: 5px;
+	
+	
+}
+.finished-list-2 ul  li{
+	margin-top: 10px;
+	background-color: white;
+	padding: 5px;
+	
+	border-radius: 5px;
+	height: 25px;
+	line-height: 4px;
+	ma
+}
+
+.footer{
+	padding: 20px;
+	margin-top: 50px;
+}
