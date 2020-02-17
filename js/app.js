@@ -11,7 +11,7 @@ const listsofcomplete = document.getElementById("listComplete");
 const classoffinished = document.getElementById("completealllist");
 
 const changedisplay = document.getElementById('allfinishedlist');
-
+const finishedbutton = document.getElementById("listoffinish");
 //
 
 bope.addEventListener("click", function() {
@@ -144,6 +144,8 @@ alllists.addEventListener('click', function(event) {
 
 })*/
 
+
+
 // display finished-list when completedtodos button is clicked
 
 
@@ -161,3 +163,12 @@ completedTodos.addEventListener('click', function() {
     }
 
 });
+
+
+
+//menu bar buttons
+//for the finished button
+finishedbutton.addEventListener('click', function(){
+    const position = "beforeend";
+    finishedbutton.insertAdjacentHTML(position,changedisplay.classList.add("finished-list-2"))
+})

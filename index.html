@@ -6,23 +6,81 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="stylesheet" type="text/css" href="fontawesome/css/fontawesome-all.min.css">
 		<link rel="stylesheet" type="text/css" href="fontawesome/css/fontawesome.min.css">
+		<script type="text/javascript" src= "jquery.js"></script>
 	</head>
 	<body>
 		<div class="container" id="kontainer">
-			<div id="list-title">
+			<header>
+				<nav class="main-nav-top    ">
+					<ul class="main-list">
+						<a href="#" id="menubars">
+						<li class="fa fa-bars "></li></a>
+						<!--<li class="fa fa-search"></li>-->
+						<li><h1>TodoApp</h1></li>
+
+
+					</ul>
+
+
+					
+				</nav>
+				
+				<nav class="main-nav">
+					<ul>
+						<a href="#"><li>ALL</li></a>
+						<a href="#"><li>TODAY</li></a>
+						<a href="#"><li>UPCOMMING</li></a>
+						<a href="#"><li>HISTORY</li></a>
+						<a href="#"><li>IMPORTANT</li></a>
+						<a href="#" id="listoffinish"><li>FINISHED</li></a>
+					</ul>
+				</nav>
+				<hr class="bar-line">
+				<nav class="main-nav">
+					<ul>
+						<a href="#"><li id="now">NOW</li></a>
+						<a href="#"><li>TUE</li></a>
+						<a href="#"><li>WED</li></a>
+						<a href="#"><li>THUR</li></a>
+						<a href="#"><li>FRI</li></a>
+						<a href="#"><li>SAT</li></a>
+						<a href="#"><li>SUN</li></a>
+						<a href="#"><li>MON</li></a>
+						<a href="#"><li>TUE</li></a>
+						<a href="#"><li>WED</li></a>
+						<a href="#"><li>THUR</li></a>
+						
+					<ul>
+							<li id ="nowdate">20</li>
+							<li>21</li>
+							<li>22</li>
+							<li>23</li>
+							<li>24</li>
+							<li>25</li>
+							<li>26</li>
+							<li>27</li>
+							<li>28</li>
+							<li>29</li>
+							<li>30</li>
+						</ul>
+					</ul>
+				</nav>
+				<hr class="bar-line">
+			</header>
+			<div id="list-title" class = " fa fa-plus fa-2x">
 				<ul>
-					<li>Groceries</li>
+					
 				</ul>
 			</div>
 			<div class="add-to-do">
-				<!--add a list title-->
-				<input type="text" placeholder="Add a list title here...." id="addmorethingstodo">
+				<!--add a list title
+				<input type="text" placeholder="Add a list title here...." id="addmorethingstodo">-->
 				<div class="addingalistitem">
 					<i class="fa fa-plus-circle fa-2x fa-lg addaplus">
     			
-    			</i>
+    				</i>
     		
-				<input type="text" placeholder="Add a to do here...." id="addthingstodo">
+					<input type="text" placeholder="Add a to do here...." id="addthingstodo">
 				</div>
 			</div>
 			<div class="list-items" id="item-list">

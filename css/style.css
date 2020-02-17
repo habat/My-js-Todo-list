@@ -1,3 +1,4 @@
+
 body{
 	
 	margin: auto;
@@ -5,9 +6,86 @@ body{
 	background: linear-gradient(to top left,#70ad8b,#bed6a6);
 	background-repeat: no-repeat;
 	box-sizing: border-box;
+}
+
+
+#App-Title {
+	float: right;
+	}
+#menubars{
+	color: white;
+}
+.main-nav-top{
+	background-color: #6B8A47;
+	padding: 5px;
+	color: white;
+	overflow: hidden;
+}
+
+.main-list{
+	list-style: none;
+	
+}
+.main-list li {
+	display: inline-block;
+	
+}
+.main-list li h1 {
+	margin: auto;
+	margin-left: 10vw;
+}
+.bar-line {
+	color: #6B8A47;
+}
+
+
+.main-nav ul{
+	background-color: ##6B8A47;
+	padding: 5px;
+	color: white;
+	
+}
+.main-nav ul a:hover{
+	background-color: #70ad8b;
+	padding:2px 0px 2px 0px;
+	opacity:0.7;
+	border-radius: 3px;
+}
+.main-nav ul a{
+	color: white;
+}
+
+.main-nav ul li{
+	list-style:none;
+	display: inline-block;
+	padding: 5px;
+	margin: 2px;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.main-nav ul ul li{
+	list-style:none;
+	display: inline-block;
+	padding: 14px;
+	margin: 2px;
+	background-color:#6B8A47;
+	color:pink;
+	border-radius: 3px;
+	font-family: Helvetica, Arial, sans-serif;
 	
 	
-	
+}
+
+#now{
+	background-color:white;
+	color:red;
+	border-radius: 3px;
+		padding:5px;
+}
+#nowdate{
+	background-color: white;
+	font-weight: bolder;
+	color:red;
 }
 .container{
 	background-color: #bed6a6;
@@ -30,6 +108,7 @@ body{
 	border-radius: 5px;
 	color: white;
 	font-weight: bolder;
+	display: none;
 	
 }
 
@@ -110,8 +189,6 @@ body{
 	margin-top: 10px;
 	display: none;
 	
-	
-	
 }
 
 .finished-list ul {
@@ -152,7 +229,7 @@ body{
 	border-radius: 5px;
 	height: 25px;
 	line-height: 4px;
-	ma
+	
 }
 
 .footer{
